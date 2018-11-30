@@ -1,3 +1,7 @@
 security:
   basic:
     enabled: false
+logging: 
+  level:
+    com:
+      online: DEBUG
