@@ -1,8 +1,7 @@
 security:
   basic:
-    enabled: true
+    enabled: false
 logging: 
   level:
     com:
       online: DEBUG      
-message: Hello from GitHub properties
