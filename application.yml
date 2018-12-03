@@ -1,6 +1,7 @@
+name:Config_Application_Name
 security:
   basic:
-    enabled: false
+    enabled: true
 logging: 
   level:
     com:
