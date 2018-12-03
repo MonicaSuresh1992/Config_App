@@ -4,4 +4,9 @@ security:
 logging: 
   level:
     com:
-      online: DEBUG      
+      online: DEBUG
+management:
+  endpoints:
+        web:
+         exposure:
+          include: *
