@@ -5,3 +5,4 @@ logging:
   level:
     com:
       online: DEBUG
+message: Hello from application properties
