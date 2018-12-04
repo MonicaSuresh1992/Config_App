@@ -5,4 +5,4 @@ logging:
   level:
     com:
       online: DEBUG
-message: Hello from GitHub properties
+message: Hello from GitHub edited properties
