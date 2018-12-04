@@ -5,3 +5,10 @@ logging:
   level:
     com:
       online: DEBUG
+management:
+  endpoints:
+    web:
+      exposure:
+        include: *
+    actuator:
+     enabled: true
