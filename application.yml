@@ -1,17 +1,19 @@
 security:
   basic:
     enabled: false
+
 management:
   security:
     enabled: false
-logging: 
-  level:
-    com:
-      online: DEBUG
-management:
   endpoints:
     web:
       exposure:
         include: /actuator/refresh
     actuator:
      enabled: true
+
+logging: 
+  level:
+    com:
+      online: DEBUG
+  
