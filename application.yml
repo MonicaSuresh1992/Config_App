@@ -11,4 +11,4 @@ management:
 logging: 
   level:
     com:
-      online: INFO
+      online: DEBUG
