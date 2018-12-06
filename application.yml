@@ -7,6 +7,12 @@ management:
         include: /actuator/refresh
     actuator:
      enabled: true
+spring:
+    h2:
+console:
+settings:
+web-allow-others: true
+
 
 logging: 
   level:
