@@ -7,12 +7,13 @@ management:
         include: /actuator/refresh
     actuator:
      enabled: true
-spring:
-    h2:
-console:
-settings:
-webAllowOthers: true
 logging: 
   level:
     com:
       online: INFO
+ spring:
+  h2:
+    console:
+      settings:
+        web-allow-others: true 
+
