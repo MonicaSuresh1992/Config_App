@@ -1,3 +1,4 @@
+name:customer-service_458882
 management:
   security:
     enabled: false
@@ -10,7 +11,7 @@ management:
 logging: 
   level:
     com:
-      online: INFO
+      online: DEBUG
 spring:
   h2:
     console:
