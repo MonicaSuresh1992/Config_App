@@ -12,7 +12,7 @@ logging:
     com:
       online: DEBUG
 spring:
-    h2:
+  h2:
     console:
-    settings:
-    web-allow-others: true
+      settings:
+        web-allow-others: true
