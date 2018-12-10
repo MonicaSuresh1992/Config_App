@@ -16,4 +16,3 @@ spring:
     console:
     settings:
     web-allow-others: true
-
